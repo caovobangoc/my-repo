@@ -1,0 +1,22 @@
+2018-11-05 15:56:16,101 ERROR: Exception on /games [GET] [in /home/chautc/Documents/ChauTC/myblog/venv/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/chautc/Documents/ChauTC/myblog/venv/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/chautc/Documents/ChauTC/myblog/venv/lib/python3.5/site-packages/flask/app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/chautc/Documents/ChauTC/myblog/venv/lib/python3.5/site-packages/flask/app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "/home/chautc/Documents/ChauTC/myblog/venv/lib/python3.5/site-packages/flask/app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2018-11-05 15:56:58,806 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:00:59,167 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:01:38,036 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:03:14,526 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:04:29,353 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:05:42,740 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:06:46,991 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:07:48,291 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:16:15,336 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:20:37,027 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
+2018-11-05 16:39:05,082 INFO: Microblog startup [in /home/chautc/Documents/ChauTC/myblog/app/__init__.py:53]
